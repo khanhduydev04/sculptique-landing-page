@@ -157,6 +157,11 @@ $(function () {
     $(".form-wrapper").slideToggle();
   });
 
+  $(".close-form").click(function (e) {
+    e.preventDefault();
+    $(".form-wrapper").slideToggle();
+  });
+
   // Initialize Slick sliders
   $(".slider-for").slick({
     slidesToShow: 1,
